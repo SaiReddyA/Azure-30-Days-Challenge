@@ -1,6 +1,3 @@
-using Azure_Learning_Series.Services;
-using Microsoft.AspNetCore.Mvc;
-
 namespace Azure_Learning_Series.Controllers
 {
     [ApiController]

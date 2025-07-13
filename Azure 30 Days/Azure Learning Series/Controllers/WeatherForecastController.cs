@@ -31,4 +31,3 @@ namespace Azure_Learning_Series.Controllers
         }
     }
 }
-}
