@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Azure 30 Days/Azure Learning Series/obj
+/Azure 30 Days/.vs/Azure 30 Days/v17

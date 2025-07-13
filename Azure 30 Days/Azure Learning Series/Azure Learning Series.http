@@ -1,0 +1,6 @@
+@Azure_Learning_Series_HostAddress = http://localhost:5266
+
+GET {{Azure_Learning_Series_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
