@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure Learning Series", "Azure Learning Series\Azure Learning Series.csproj", "{5B2D2BFE-CC7C-4BF3-98DB-1CC4F1E3E339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure TestApp", "Azure TestApp\Azure TestApp.csproj", "{9877CF43-279F-48EF-91DA-4719EDAEA157}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAzureAPP", "MyAzureAPP\MyAzureAPP.csproj", "{BF9120CA-D8B2-49F0-9667-225E3F4732C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{5B2D2BFE-CC7C-4BF3-98DB-1CC4F1E3E339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B2D2BFE-CC7C-4BF3-98DB-1CC4F1E3E339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B2D2BFE-CC7C-4BF3-98DB-1CC4F1E3E339}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9877CF43-279F-48EF-91DA-4719EDAEA157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9877CF43-279F-48EF-91DA-4719EDAEA157}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9877CF43-279F-48EF-91DA-4719EDAEA157}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9877CF43-279F-48EF-91DA-4719EDAEA157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9120CA-D8B2-49F0-9667-225E3F4732C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9120CA-D8B2-49F0-9667-225E3F4732C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9120CA-D8B2-49F0-9667-225E3F4732C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9120CA-D8B2-49F0-9667-225E3F4732C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
