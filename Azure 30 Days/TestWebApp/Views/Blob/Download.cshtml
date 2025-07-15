@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Download File";
+}
+
+<h2>Download File</h2>
+
+<form asp-action="Download" method="post" asp-controller="Blob">
+    <input type="text" name="fileName" placeholder="Enter file name (with extension)" />
+    <button type="submit">Download</button>
+</form>

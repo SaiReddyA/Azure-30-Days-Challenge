@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure Learning Series", "Az
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAzureAPP", "MyAzureAPP\MyAzureAPP.csproj", "{BF9120CA-D8B2-49F0-9667-225E3F4732C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApp", "TestWebApp\TestWebApp.csproj", "{D6D8155F-F190-4021-83B4-959350412789}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BF9120CA-D8B2-49F0-9667-225E3F4732C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF9120CA-D8B2-49F0-9667-225E3F4732C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF9120CA-D8B2-49F0-9667-225E3F4732C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D8155F-F190-4021-83B4-959350412789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D8155F-F190-4021-83B4-959350412789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D8155F-F190-4021-83B4-959350412789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D8155F-F190-4021-83B4-959350412789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
