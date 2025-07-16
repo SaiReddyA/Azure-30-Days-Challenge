@@ -1,5 +1,4 @@
 namespace TestWebApp.Controllers;
-
 public class BlobController : Controller
 {
     private readonly BlobService _blobService;

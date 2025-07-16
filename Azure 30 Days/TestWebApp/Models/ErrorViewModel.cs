@@ -6,4 +6,10 @@ namespace TestWebApp.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+    public class FileItem
+    {
+        public string FileName { get; set; }
+        public string DownloadUrl { get; set; }
+    }
+
 }
