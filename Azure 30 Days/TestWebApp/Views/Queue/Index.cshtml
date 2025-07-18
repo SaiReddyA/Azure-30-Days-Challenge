@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Azure Queue Messaging";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+
+            <div class="card shadow rounded-4">
+                <div class="card-body">
+                    <h2 class="text-center text-primary mb-4">Azure Queue Messaging</h2>
+
+                    <form asp-action="Send" asp-controller="Queue" method="post" class="mb-4">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Enter Message</label>
+                            <input type="text" name="message" class="form-control" id="message" placeholder="Type a message..." required />
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Send to Queue</button>
+                    </form>
+
+                    <form asp-action="Read" asp-controller="Queue" method="get">
+                        <button type="submit" class="btn btn-primary w-100">Read Message from Queue</button>
+                    </form>
+
+                    @if (ViewBag.Msg != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show mt-4" role="alert">
+                            <strong>Info:</strong> @ViewBag.Msg
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    @if (ViewBag.ReadMsg != null)
+                    {
+                        <div class="alert alert-info alert-dismissible fade show mt-4" role="alert">
+                            <strong>Message Read:</strong> @ViewBag.ReadMsg
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

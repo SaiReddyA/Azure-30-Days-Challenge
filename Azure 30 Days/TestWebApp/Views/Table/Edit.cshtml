@@ -1,0 +1,36 @@
+﻿@model TableEntityModel
+
+@{
+    ViewBag.Title = "Edit Table Entry";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+
+            <div class="card shadow rounded-4">
+                <div class="card-body">
+                    <h3 class="text-center text-primary mb-4">Edit Table Entry</h3>
+
+                    <form asp-action="Edit" asp-controller="Table">
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input asp-for="Name" class="form-control" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Description</label>
+                            <input asp-for="Description" class="form-control" required />
+                        </div>
+                        <input type="hidden" asp-for="ETagString" value="@Model.ETag.ToString()" />
+                        <input type="hidden" asp-for="PartitionKey" value="@Model.PartitionKey" />
+                        <input type="hidden" asp-for="RowKey" value="@Model.RowKey" />
+
+                        <button type="submit" class="btn btn-primary w-100">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

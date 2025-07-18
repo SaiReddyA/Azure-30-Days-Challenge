@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<BlobService>();
+builder.Services.AddSingleton<QueueService>();
+builder.Services.AddSingleton<TableStorageService>();
 
 var app = builder.Build();
 
